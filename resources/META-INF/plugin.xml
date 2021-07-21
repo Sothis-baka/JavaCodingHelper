@@ -1,0 +1,38 @@
+<idea-plugin>
+  <id>com.sothis-baka.IDontHaveAPersonalPage.plugin.1</id>
+  <name>JavaCodingHelper</name>
+  <version>1.0</version>
+  <vendor email="archmagus02@gmail.com" url="https://github.com/Sothis-baka">Sothis_baka</vendor>
+
+  <description><![CDATA[
+      <p>It's an coding help tool created for those who are new to Java</p>
+      <p>After select what u wanna say, press <span style="color:red">shift + `</span> to replace them</p>
+      <small>Try to say hello, details at: <a href="https://youtu.be/OxNJC40yvtY">here</a> or copy link: https://youtu.be/OxNJC40yvtY</small>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <p>I haven't changed anything since it's the 1st edition</p>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <action id="org.intellij.sdk.action.SelectToChange" class="org.intellij.sdk.action.SelectToChange"
+              text="Java Coding Helper" description="Try to say hello">
+      <override-text place="MainMenu" text="Select to Change"/>
+      <add-to-group group-id="EditMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift BACK_QUOTE"/>
+    </action>
+  </actions>
+
+</idea-plugin>
