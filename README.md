@@ -23,8 +23,8 @@ npm start
 
 ### Deployment
 
-[Web app online compiler deployed](https://aqueous-refuge-42292.herokuapp.com/)
-[Intellij Idea Plugin deployed](https://plugins.jetbrains.com/plugin/17271-javacodinghelper/versions/stable/128734)
+* [Web app online compiler deployed](https://aqueous-refuge-42292.herokuapp.com/)
+* [Intellij Idea Plugin deployed](https://plugins.jetbrains.com/plugin/17271-javacodinghelper/versions/stable/128734)
 
 ### Interact with API using curl
 
